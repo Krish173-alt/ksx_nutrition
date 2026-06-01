@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KSX Nutrition</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Montserrat,sans-serif;background:#f5f3f0;color:#111}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;position:sticky;top:0;background:#f5f3f0;z-index:100}
+nav ul{display:flex;gap:40px;list-style:none}
+nav a{text-decoration:none;color:#111;font-weight:700}
+.btn{background:#111;color:#fff;padding:14px 28px;border-radius:14px;text-decoration:none}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;padding:60px 8%;min-height:85vh}
+.logo{font-size:110px;font-weight:800;line-height:1}
+.tag{font-size:22px;letter-spacing:6px;margin:10px 0 40px}
+.headline{font-size:60px;font-weight:300}
+.headline b{font-weight:800}
+.cta{margin-top:30px;display:flex;gap:20px}
+.hero-right{height:600px;background:linear-gradient(135deg,#222,#666);border-radius:30px;display:flex;align-items:center;justify-content:center;color:white;font-size:28px}
+.features{background:#111;color:#fff;padding:25px 8%;display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+section{padding:80px 8%}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:#fff;padding:30px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+input,textarea{width:100%;padding:14px;margin:10px 0;border-radius:12px;border:1px solid #ddd}
+button{background:#111;color:#fff;border:none;padding:15px 30px;border-radius:12px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+footer{background:#111;color:#fff;text-align:center;padding:30px}
+@media(max-width:900px){
+.hero,.contact-grid,.cards{grid-template-columns:1fr}
+.features{grid-template-columns:1fr 1fr}
+.logo{font-size:70px}
+.headline{font-size:40px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<h2>KSX NUTRITION</h2>
+<ul>
+<li><a href="#about">ABOUT</a></li>
+<li><a href="#offers">OFFERS</a></li>
+<li><a href="#contact">CONTACT</a></li>
+</ul>
+<a class="btn" href="#contact">ENQUIRE NOW</a>
+</nav>
+
+<div class="hero">
+<div>
+<div class="logo">KSX</div>
+<div class="tag">FUEL • BUILD • TRANSFORM</div>
+<div class="headline">Fuel Your Body.<br>Fuel Your <b>Performance.</b></div>
+<div class="cta">
+<a class="btn" href="#contact">Contact Us</a>
+<a class="btn" href="#offers">Explore Offers</a>
+</div>
+</div>
+<div class="hero-right">
+YOUR KSX HERO IMAGE HERE
+</div>
+</div>
+
+<div class="features">
+<div>100% Authentic Products</div>
+<div>Best Quality Assured</div>
+<div>Competitive Prices</div>
+<div>Expert Guidance</div>
+<div>Fast Support</div>
+</div>
+
+<section id="about">
+<h1>Welcome to KSX Nutrition</h1><br>
+<p>Your trusted supplement store in Greater Noida. We provide authentic whey protein, creatine, pre-workouts, mass gainers and fitness accessories.</p>
+</section>
+
+<section id="offers">
+<h1>Exclusive Offers</h1><br>
+<div class="cards">
+<div class="card"><h2>5% OFF</h2><p>On First Purchase</p></div>
+<div class="card"><h2>FREE SHAKER</h2><p>On Selected Products</p></div>
+<div class="card"><h2>COMBO DEALS</h2><p>Whey + Creatine Bundles</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h1>Send Us An Enquiry</h1><br>
+<div class="contact-grid">
+<div>
+<input placeholder="Your Name">
+<input placeholder="Phone Number">
+<input placeholder="Email Address">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button>Send Enquiry</button>
+</div>
+<div>
+<h2>Store Details</h2><br>
+<p><b>Address:</b><br>Shop 7, Chaudhary Market, Barat Ghar Road, Tugalpur, Greater Noida</p><br>
+<p><b>Phone:</b> 9220826207</p><br>
+<p><b>Email:</b> ksxnutrition@gmail.com</p><br>
+<p><b>Instagram:</b> @ksxnutrition</p>
+</div>
+</div>
+</section>
+
+<footer>
+KSX Nutrition © 2026 | Fuel • Build • Transform
+</footer>
+
+</body>
+</html>
